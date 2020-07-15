@@ -1,0 +1,21 @@
+#contactUs> .ant-row:first-child                    {background-color:#008DC8;  padding:25px;   }
+#contactUs> .ant-row:first-child  .ant-col h1       {text-align:center;color: #fff;}
+#contactUs> .ant-row:nth-child(2)                   {background-color:#B9D534;  padding:10px;   }
+#contactUs #inputs                                  {border-radius:10px;background-color:#eee ;margin:30px 0px;padding:30px}
+#contactUs #inputs h2                               {color:#008DC8}
+#contactUs #info                                    {background-color:#eee; padding:30px}
+#contactUs #info ul li:first-child a                                    {color:#B9D534}
+#contactUs #info ul li:nth-child(2) a                                    {color:red}
+#contactUs #info ul li:last-child  a                                   {color:#008DC8}
+#contactUs #soclinks .ant-col                             {font-size:25px;margin-right:5px;margin-left:5px;border-radius:5px}
+#contactUs ul li span                                     {padding-left:20px ;}
+#contactUs #soclinks .ant-col a                           {color:#fff}
+#contactUs #soclinks .ant-col:first-child                 {background-color:#F95F5A;}
+#contactUs #soclinks .ant-col:nth-child(2)                {background-color:#005585;}
+#contactUs #soclinks .ant-col:nth-child(3)                {background-color:#15B3B9;}
+#contactUs #soclinks .ant-col:nth-child(4)                {background-color:#EE2BCA;}
+#contactUs #soclinks .ant-col:nth-child(5)                {background-color:#F75E57;}
+#contactUs #soclinks .ant-col:last-child                  {background-color:#2F87E1;}
+#contactUs ul li                                          {text-align:right;list-style-type: none;}
+#contactUs ul li a                                        {color:#005585}
+#contactUs #locationInfo ul li a                          {color:#008DC8}

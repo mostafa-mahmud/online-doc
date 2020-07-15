@@ -1,0 +1,22 @@
+.ant-layout-footer:first-of-type                                  {position:relative;z-index:3;font-weight: bold; background-color: #f2f2f2 !important;padding-bottom:0px;padding-top: 0px;text-align: center}
+.ant-layout-footer #mainfoot                                      {padding-top: 50px;}
+.ant-layout-footer #soclinks .ant-col                             {margin-right:5px;margin-left:5px;border-radius:10px}
+.ant-layout-footer #soclinks .ant-col a                           {color:#fff}
+.ant-layout-footer #soclinks .ant-col:first-child                 {background-color:#F95F5A;}
+.ant-layout-footer #soclinks .ant-col:nth-child(2)                {background-color:#005585;}
+.ant-layout-footer #soclinks .ant-col:nth-child(3)                {background-color:#15B3B9;}
+.ant-layout-footer #soclinks .ant-col:nth-child(4)                {background-color:#EE2BCA;}
+.ant-layout-footer #soclinks .ant-col:nth-child(5)                {background-color:#F75E57;}
+.ant-layout-footer #soclinks .ant-col:last-child                  {background-color:#2F87E1;}
+.ant-layout-footer ul li                                          {text-align:right;list-style-type: none;}
+.ant-layout-footer ul li a                                        {color:#005585}
+.ant-layout-footer #locationInfo ul li a                          {color:#008DC8}
+.ant-layout-footer ul li a:hover,
+.ant-layout-footer ul li a:active,
+.ant-layout-footer #locationInfo ul li a:hover,
+.ant-layout-footer #locationInfo ul li a:active                                 {color:#B9D534 ;}
+.ant-layout-footer .ant-layout-footer                             {padding-bottom:0px}
+.ant-layout-footer .ant-layout-footer .ant-row .ant-col           {padding:20px; padding-bottom:0px; text-align: center;margin:20px auto ;border-top: 1px solid rgba(221, 221, 221, 0.637);}
+.ant-layout-footer ul li span                                     {padding-left:20px;}
+.ant-layout-footer #mainfoot .ant-col:last-child .ant-row         {padding:25px;border-radius:30px; background-color:#E8EDD2}
+.ant-layout-footer #mainfoot .ant-col:last-child .ant-row p       {color:#005585}

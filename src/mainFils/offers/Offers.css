@@ -1,0 +1,5 @@
+#offers> .ant-col:first-child{padding:40px;background-color: #FDA774;  height:250px}
+#offers h1  {text-align: center;color:#fff;}
+#offers> .ant-col> .ant-row{margin-top:-100px}
+#offers> .ant-col> .ant-row> .ant-col            {padding:30px}
+#offers> .ant-col> .ant-row> .ant-col> .ant-row  {overflow: hidden; border-radius: 10px;}

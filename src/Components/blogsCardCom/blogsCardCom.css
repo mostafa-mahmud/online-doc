@@ -1,0 +1,5 @@
+#blogsCard                         {text-align: right;}
+#blogsCard .ant-card-meta-title    { color:#005585}
+#blogsCard a                      { color:#B9D534;text-decoration: underline;}
+#blogsCard .ant-card-meta-description                      { color:#666}
+#blogsCard button                  {background: linear-gradient(100deg, rgba(12,155,214,1) 0%, rgba(95,194,246,1) 24%, rgba(3,147,208,1) 100%);display:block;margin:auto;height:auto;padding:10px }

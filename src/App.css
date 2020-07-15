@@ -1,0 +1,7 @@
+.App {text-align: right;}
+.App .AppContent{padding-top:100px}
+.colored .ant-col                {padding:7px}
+.colored .ant-col:first-child                  {background-color:#B9D534;}
+.colored .ant-col:last-child                   {background-color:#008DC8;}
+#addcontainer{padding:5px!important}
+#addcontainer img  {border-radius:10px;overflow: hidden;}

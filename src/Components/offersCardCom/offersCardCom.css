@@ -1,0 +1,5 @@
+#offerCard .ant-card-meta-title   { color:#005585}
+#offerCard h3                      { color:red }
+#offerCard .ant-card-meta-description                      { color:#666}
+#offerCard button                  {background: linear-gradient(100deg, rgba(12,155,214,1) 0%, rgba(95,194,246,1) 24%, rgba(3,147,208,1) 100%);
+    display:block;margin:auto;height:auto;padding:10px }

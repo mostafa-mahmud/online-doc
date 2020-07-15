@@ -1,0 +1,6 @@
+#blogs  {text-align: center;}
+#blogs> .ant-col:first-child{padding:40px;background-color: #FDA774;  height:250px}
+#blogs h1  {text-align: center;color:#fff;}
+#blogs> .ant-col> .ant-row{margin-top:-100px}
+#blogs> .ant-col> .ant-row> .ant-col  {padding:30px}
+#blogs> .ant-col> .ant-row> .ant-col> .ant-row  {background-color:#ccc; border-radius: 50px;}
