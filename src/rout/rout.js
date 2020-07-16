@@ -2,6 +2,7 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Home from '../mainFils/Home';
 import Offers from '../mainFils/offers/Offers';
+import OffersItem from '../mainFils/OffersItem/OffersItem';
 import AvailableClinic from "../mainFils/AvailableClinic";
 import ContactUs from "../mainFils/ContactUs/ContactUs";
 import LogIn from "../mainFils/LogIn";
@@ -9,11 +10,13 @@ import SignUp from "../mainFils/SignUp";
 import Blogs from "../mainFils/Blogs/Blogs";
 import BlogItem from "../mainFils/BlogItem/BlogItem";
 import ConditionsAndLaws from "../mainFils/conditionsAndLaws";
+
 const Rout = () => {
     return (
         <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/Offers" component={Offers} />
+            <Route path="/OffersItem" component={OffersItem} />
             <Route path="/Blogs" component={Blogs} />
             <Route path="/blogLink" component={BlogItem} />
             <Route path="/AvailableClinic" component={AvailableClinic} />

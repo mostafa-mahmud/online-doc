@@ -1,0 +1,23 @@
+@media only screen and (min-width: 650px) {
+    #OffersItem1>  .ant-col,
+    #OffersItem2>  .ant-col    {padding:100px}
+    }
+    @media only screen and (max-width: 650px) {
+        #OffersItem1>  .ant-col,
+        #OffersItem2>  .ant-col    {padding:30px}
+        }
+#OffersItem1> .ant-col:first-child    {border-radius:0px 0px 0px 10px;background-color:  #FCBC91;}
+#OffersItem1 .ant-col:first-child .ant-row .ant-col  {box-shadow: 5px 5px 15px 5px rgba(75, 74, 74, 0.349);padding:30px; width:400px; height:400px;border-radius:50%;background-color: #fff;}
+#OffersItem1 .ant-col:first-child .ant-row .ant-col img{border:5px solid #FCBC91 ; border-radius: 50%;; width:100%; height:100%;display: block;margin: auto;}
+#OffersItem1 .ant-col:nth-child(2)  h1.ant-typography{color:#005585}
+#OffersItem1 .ant-col:nth-child(2)  h4.ant-typography,
+#OffersItem2  h2.ant-typography{color:#B9D534;}
+#OffersItem1 .ant-col:nth-child(2)  h2.ant-typography,
+#OffersItem2> .ant-col> .ant-row> .ant-col .ant-input,
+#OffersItem2  h3.ant-typography {color:#008DC8}
+#OffersItem1 .ant-divider {    width:100px; min-width:260px}
+#OffersItem2> .ant-col> .ant-row> .ant-col{padding:20px}
+#OffersItem2> .ant-col> .ant-row:nth-child(7)               {font-weight:bold;margin:20px;color:#E55339;background-color: #FEE5E5;border-radius:10px;}
+#OffersItem2> .ant-col> .ant-row> .ant-col .ant-input  { border-radius:10px;padding:20px}
+#OffersItem2> .ant-col> .ant-row> .ant-col .ant-input::-webkit-input-placeholder{font-weight:bold;color:#666}
+#OffersItem2> .ant-col> .ant-row button    {background: linear-gradient(100deg, rgba(12,155,214,1) 0%, rgba(95,194,246,1) 24%, rgba(3,147,208,1) 100%);display:block;margin:auto;height:auto;padding:20px; width:100%; color:#fff }

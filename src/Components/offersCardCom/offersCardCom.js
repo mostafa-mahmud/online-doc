@@ -1,6 +1,7 @@
 import React from 'react';
 import { Card,Button } from 'antd';
 import './offersCardCom.css';
+import { NavLink } from 'react-router-dom';
 const { Meta } = Card;
 const OffersCard = (props) => {
     console.log("offers", props.offcardinfo);
@@ -14,10 +15,11 @@ const OffersCard = (props) => {
             <h3>
                 {iteminfo.cardPrice}
             </h3>
-            <Button type="primary" shape="round"   >
+            <NavLink to="/OffersItem">
+            <Button type="primary" shape="round">
             أحصل على العرض
             </Button>
-      
+            </NavLink>
         </Card>
 
     );
