@@ -7,7 +7,7 @@ const OffersCard = (props) => {
     console.log("offers", props.offcardinfo);
     var iteminfo = props.offcardinfo
     return (
-        <Card
+        <div style={{padding:"10px"}}>        <Card
             id="offerCard"
             hoverable
             cover={<img alt="example" src={iteminfo.cardPhoto} />}>
@@ -21,6 +21,7 @@ const OffersCard = (props) => {
             </Button>
             </NavLink>
         </Card>
+        </div>
 
     );
 }

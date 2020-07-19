@@ -1,0 +1,9 @@
+.theClinicCard  {margin:30px}
+.theClinicCard button{background: linear-gradient(100deg, rgba(12,155,214,1) 0%, rgba(95,194,246,1) 24%, rgba(3,147,208,1) 100%);display:block;height:auto;padding:10px; width:100%; color:#fff}
+.theClinicCard> .ant-col:last-child{ border: 1px solid #f2f2f2; box-shadow: 0px 0px 10px 1px rgb(232, 231, 231) }
+.theClinicCard> .ant-col:last-child> .ant-row>.ant-col:first-child{padding: 20px}
+.theClinicCard> .ant-col:last-child> .ant-row>.ant-col:first-child h2{color: #005585 }
+.theClinicCard> .ant-col:last-child> .ant-row>.ant-col:first-child h2 span h4{color: orange ; display: inline}
+.theClinicCard> .ant-col:last-child> .ant-row>.ant-col:first-child h3{color:#666}
+.theClinicCard> .ant-col:last-child> .ant-row>.ant-col:first-child h4{ color: #B9D534 }
+.theClinicCard> .ant-col:last-child> .ant-row>.ant-col:first-child> .ant-row> .ant-col:first-child{font-weight:bold; color: #008DC8 }

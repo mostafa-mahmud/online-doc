@@ -1,10 +1,11 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { Row, Col } from 'antd';
+import { Button,Input,Row, Col, } from 'antd';
 import { TwitterOutlined,PushpinOutlined, MobileOutlined, MailOutlined, InstagramOutlined, YoutubeOutlined, FacebookOutlined, GooglePlusOutlined, LinkedinOutlined } from '@ant-design/icons';
 
 import './ContactUs.css'
 const ContactUs = () => {
+    const {TextArea}= Input
     return (
         <div id="contactUs">
             <Row justify="center" >
@@ -22,11 +23,36 @@ const ContactUs = () => {
                                 <h2>تواصل معنا</h2>
                             </Row>
                             <Row>
-                                <Col span={24}></Col>
-                                <Col span={24}></Col>
-                                <Col span={24}></Col>
-                                <Col span={24}></Col>
-                                <Col span={24}></Col>
+                                <Col span={24}>
+                                <Row>
+                            <Col span={24}>
+                                <Input type="text" size="large" placeholder="الأسم  ..." />
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col span={24}>
+                                <Input type="email" size="large" placeholder="البريد الألكترونى ..." />
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col span={24}>
+                                <Input type="text" size="large" placeholder="الموضوع ..." />
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col span={24}>
+                                <TextArea rows={4}  placeholder="اكتب رسالتك ..."/>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col span={24}>
+                                <Button  type="primary" type="submit" shape="round">
+                                    أحجز الأن
+                                </Button>
+                            </Col>
+                        </Row>
+                                </Col>
+                                
                             </Row>
                         </Col>
                     </Row>

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Col, Row } from 'antd';
 import './BlogItem.css'
 import { NavLink } from 'react-router-dom';
-import { PushpinOutlined, TwitterOutlined, MobileOutlined, MailOutlined, InstagramOutlined, YoutubeOutlined, FacebookOutlined, GooglePlusOutlined, LinkedinOutlined } from '@ant-design/icons';
+import {  TwitterOutlined, FacebookOutlined, GooglePlusOutlined } from '@ant-design/icons';
 
 class BlogItem extends Component {
     state = {

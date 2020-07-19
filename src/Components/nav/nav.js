@@ -7,6 +7,7 @@ import { NavLink } from 'react-router-dom';
 import './nav.css'
 const { Header } = Layout;
 class Nav extends Component {
+
     state = {
         subMenu: [[{ itemKey: "1" }, { itemIcon: <GlobalOutlined /> }, { itemId: "" }, { itemText: "ENGLISH" }],
         [{ itemKey: "1" }, { itemIcon: <GlobalOutlined /> }, { itemId: "" }, { itemText: "ENGLISH" }],
@@ -21,16 +22,18 @@ class Nav extends Component {
         [{ itemKey: "1" }, { itemIcon: <GlobalOutlined /> }, { itemId: "" }, { itemText: "ENGLISH" }],
         [{ itemKey: "1" }, { itemIcon: <GlobalOutlined /> }, { itemId: "" }, { itemText: "ENGLISH" }],
         [{ itemKey: "1" }, { itemIcon: <GlobalOutlined /> }, { itemId: "" }, { itemText: "ENGLISH" }],
-        [{ itemKey: "1" }, { itemIcon: <GlobalOutlined /> }, { itemId: "" }, { itemText: "ENGLISH" }],]
+        [{ itemKey: "1" }, { itemIcon: <GlobalOutlined /> }, { itemId: "" }, { itemText: "ENGLISH" }],],
+        availableClinic: ["عيادة السكرى", "عيادة امراض السمنة وارتفاع الكوليسترول", "عيادة امراض الذكورة", "العيدة النفسية", "عيادة النساء والتوليد", "عيادة أطفال", "عيادة امراض الغدة الدرقية", "عيادة الجلدية"]
     }
     render() {
+        const { SubMenu } = Menu;
         return (
             <Fragment>
                 <Header id="baseHeder">
                     <div className="logo" style={{ float: 'right' }}>
                         <img src={Logo} style={{ height: '100%' }} />
                     </div>
-                    
+
                     {/*{ this.state.subMenu.map((item,i)=>{return(<Fragment>
                         <NavItem ItemContent={item}/>
                     </Fragment>)})}
@@ -44,7 +47,15 @@ class Nav extends Component {
                     <Menu id="mainMenu" mode="horizontal" defaultSelectedKeys={['1']}>
                         <Menu.Item key="1" ><NavLink exact to="/" >الرئيسية</NavLink></Menu.Item>
                         <Menu.Item key="2"><NavLink exact to="/Offers" >العروض</NavLink></Menu.Item>
-                        <Menu.Item key="3"><NavLink exact to="/availableClinic" >العيادات المتاحة</NavLink></Menu.Item>
+                        <SubMenu title="العيادات المتاحة" >
+                            <Menu.ItemGroup  style={{ textAlign: "right", direction: "right" }} title="العيادات">
+                                {this.state.availableClinic.map((item, i) => {
+                                    return (
+                                        <Menu.Item  key={"setting:" + i}><NavLink exact className="submenuItem" to={"/availableClinic:"+i} >{item}</NavLink></Menu.Item>
+                                    )
+                                })}
+                            </Menu.ItemGroup>
+                        </SubMenu>
                         <Menu.Item key="4"><NavLink exact to="/Blogs" >المقالات</NavLink></Menu.Item>
                         <Menu.Item key="5"><NavLink exact to="/ContactUs" >تواصل معنا</NavLink></Menu.Item>
                         <Menu.Item key="6" id="login"><Button type="primary" shape="round"  ><NavLink exact to="/LogIn" >تسجيل الدخول</NavLink></Button></Menu.Item>

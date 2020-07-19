@@ -1,9 +1,13 @@
 #contactUs> .ant-row:first-child                    {background-color:#008DC8;  padding:25px;   }
 #contactUs> .ant-row:first-child  .ant-col h1       {text-align:center;color: #fff;}
 #contactUs> .ant-row:nth-child(2)                   {background-color:#B9D534;  padding:10px;   }
-#contactUs #inputs                                  {border-radius:10px;background-color:#eee ;margin:30px 0px;padding:30px}
+#contactUs #inputs                                  {border-radius:10px;background-color:#eee ;margin:30px 0px;padding:50px}
 #contactUs #inputs h2                               {color:#008DC8}
-#contactUs #info                                    {background-color:#eee; padding:30px}
+#contactUs #inputs> .ant-row> .ant-col .ant-input  { border-radius:10px;padding:20px ;margin:15px 0px; border:0px solid transparent}
+#contactUs #inputs> .ant-row> .ant-col .ant-input::-webkit-input-placeholder{font-weight:bold;color:#aaa}
+#contactUs #inputs> .ant-row> .ant-col> .ant-row button    {margin:20px 0px;background: linear-gradient(100deg, rgba(12,155,214,1) 0%, rgba(95,194,246,1) 24%, rgba(3,147,208,1) 100%);display:block;height:auto;padding:20px; width:100%; color:#fff }
+#contactUs #info                                    {margin:0px 0px 50px; background-size: 90% 100%;background-repeat:no-repeat;background-image: url("../../sources/Capture5.PNG");}
+#contactUs #info ul                                 {margin:250px 100px}
 #contactUs #info ul li:first-child a                                    {color:#B9D534}
 #contactUs #info ul li:nth-child(2) a                                    {color:red}
 #contactUs #info ul li:last-child  a                                   {color:#008DC8}

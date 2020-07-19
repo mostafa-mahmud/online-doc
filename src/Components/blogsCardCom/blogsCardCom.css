@@ -1,4 +1,6 @@
-#blogsCard                         {text-align: right;}
+#blogsCard                         {text-align: right;border-radius: 10px;}
+.ant-card-cover img {
+    border-radius: 10px 10px 0 0;}
 #blogsCard .ant-card-meta-title    { color:#005585}
 #blogsCard a                      { color:#B9D534;text-decoration: underline;}
 #blogsCard .ant-card-meta-description                      { color:#666}
